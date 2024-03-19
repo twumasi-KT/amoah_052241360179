@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+    text-transform: capitalize; 
+    transition: all 0.2s linear; 
+} 
+.header{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 9vh;
+    font-size: 20px;
+    padding: 2%;
+    background-color:  #1b2945;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .seacrh{
+    position: relative;
+    width: 240px;
+        align-items: center;
+}
+.header ul li a:hover{
+    color: #4CAF50;
+    font-size: 30px;
+}
+.seacrh-bar{
+    position: relative;
+    margin: 10px 5px;
+    width: 100%;
+    padding: 2% 6%;
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    transition: 0.6s all ease-in-out;
+}
+.seacrh-bar:focus-visible{
+    outline:none;
+    box-shadow: 0px 0px 6px 6px #e9093d;
+}
+.header ul{
+   display: flex;
+   
+}.header ul li{
+    list-style-type: none;
+    text-transform: capitalize;
+
+ 
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    text-transform: capitalize;
+    padding: 2% 6%;
+    margin: 15px;
+    float: inline-start;
+    
+}
+
+
+.overall{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 13vh;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: rgb(245, 242, 238);
+}
+.overall .head ul li a:hover{
+color: rgb(55, 0, 255);
+    font-size: 34px;
+}
+.head ul{
+        display: flex; 
+        
+}
+.head ul li{
+    margin-left:50px;
+    list-style-type: none;
+    padding: 2% ;
+    margin: 15px;
+    
+}
+
+.head ul li a{
+    text-decoration: none;   
+     font-size: 27px;
+    color: black; 
+}
+.contact a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #1b2945;
+}
+.contact a:hover{
+    font-size:20px;
+    color:black ;
+}
+.full{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-image:url(image/image\ 9.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top,center;
+    background-size: 100%;
+    justify-content: space-between;
+    padding:10px 30px;  
+    color: rgb(248, 248, 245);
+    
+    
+}
+.full h4{
+    margin: 60px;
+    padding: 70px;
+    font-size: 50px;
+    text-align: center;
+    
+}
+.full h2{
+    font-size: 70px;
+    text-align: center;
+}
+
+.per p{
+    margin: 20px 0;
+    font-size: 30px;
+}
+.both {
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+   
+    
+}
+.both p{
+    font-size: 30px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.line ul li{
+    gap: 19px;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 100px;
+    list-style-type: none;
+    
+}
+.vision h3{
+    position: relative;
+    font-size: 40px;
+    margin: 20px 0;
+    text-align: center;
+
+
+}
+.vision p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.obj h3{
+    font-size: 40px;
+    margin: 20px 0;
+    text-align: center;
+}
+.main p{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.line2{
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+.line2 ul li{
+    gap: 19px;
+    font-size: 30px;
+}
+.faculty{
+    position: relative;
+    display: flex;
+    width: 73%;
+    height: 6vh;
+    background-color: rgb(233, 220, 204);
+    padding: 10px 0;
+    
+    
+}
+.faculty h3{
+    font-size: 30px;
+    
+}
+.faculty h2{
+    font-size: 30px;  
+}
+.faculty1 a{
+    position: relative;
+    display: flex;
+    padding: 10px 0;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+.textcontent{
+    position: relative;
+    z-index: 10;
+    bottom: -100%;
+    background-color: rgba(255, 255,255, 0.705);
+    transition: 0.3s;
+    
+}
+.card:hover .textcontent{
+    bottom: 0;
+}
+
+
+
+.row1{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background:#1b2945;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 10px;
+    
+    
+}
+.row1 .col-lg-3 ul li{
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    text-wrap: wrap;
+    font-size: 20px;
+    transition: all 0.2s linear;
+    margin: 5px 0;
+    color: #fff;
+}
+.row1 .col-lg-3 ul li:hover{
+    font-size: 25px;
+}
+.row1 .col-lg-3 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.row1 .col-lg-3 ul p{
+     font-size: 26px;
+     color: #4CAF50;
+}
+.bg-dark-1  h6{
+    text-align: center;
+    background-color: #1b2945;
+    padding: 18px;
+    font-size: larger;
+    color: #fff;
+}
+.special-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;  
+  }
+  
+  .special-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .special-box img {
+    max-width: 90%;
+    border-radius: 10px;
+  }
+  .special-box img:hover{
+    max-width: 100%;
+  }
+  
+  .special-box h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .special-box h2:hover{
+    font-size: 30px;
+  }
+  
+  .special-box p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .special-box p:hover{
+    font-size: 20px;
+  }
+
+
+
+

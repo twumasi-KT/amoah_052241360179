@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Building Technology | Kumasi Technical University</title>
+    <link rel="stylesheet" href="registration.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link 6href="https://fonts.google.com/css2?
+    family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="header">
+        
+    <ul>
+        <li><a href="faculty.html">Faculty</a></li>
+        <li><a href="timetable.html">Timetables</a></li>
+        <li><a href="payment.html">Payment</a></li>
+    </ul>
+    <div class="seacrh">
+        <input type="text" class="seacrh-bar" placeholder="seacrh....">
+        
+    </div>
+
+</div>
+    
+    
+    <div class="overall">
+        <div class="logo"><img src="image/kstu_logo_org.png" width="500px" height="70px"></div>
+
+        <div class="head">   
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="department.html">Department</a></li>
+            <li><a href="Registration.html">Registration</a></li>
+        </ul>
+    </div>
+    <div class="contact"><a href="contact.html">Contact</a></div>
+    </div>
+    <div class="main"> 
+        <h1>Registration form</h1> 
+        <form action=""> 
+            <label for="first">First Name:</label> 
+            <input type="text" id="first" 
+                   name="first" 
+                   placeholder="Enter your first name" required> 
+  
+            <label for="last">Last Name:</label> 
+            <input type="text" id="last" 
+                   name="last" 
+                   placeholder="Enter your last name" required> 
+  
+            <label for="email">Email:</label> 
+            <input type="email" id="email" 
+                   name="email" 
+                   placeholder="Enter your email" required> 
+  
+            <label for="dob">Date of Birth:</label> 
+            <input type="date" 
+                   id="dob" name="dob" 
+                   placeholder="Enter your DOB" required> 
+  
+            <label for="password">Password:</label> 
+            <input type="password" id="password" 
+                   name="password"
+                   placeholder="Enter your password"> 
+  
+            <label for="repassword">Confirm Password:</label> 
+            <input type="password" id="repassword" 
+                   name="repassword" 
+                   placeholder="Re-Enter your password" required> 
+            <span id="pass"></span> 
+  
+            <label for="mobile">Contact:</label> 
+            <input type="text" id="mobile" 
+                   name="mobile" 
+                   placeholder="Enter your Mobile Number" required 
+                   maxlength="10"> 
+
+            <label for="mobile">Level:</label>
+            <select id="level" name="level" required> 
+                <option value="100">100</option> 
+                <option value="200">200</option> 
+                <option value="other">300</option> 
+                <option value="other">400</option>
+            </select>      
+  
+            <label for="gender">Gender:</label> 
+            <select id="gender" name="gender" required> 
+                <option value="male">Male</option> 
+                <option value="female">Female</option> 
+                <option value="other">Other</option> 
+            </select> 
+
+            <label for="gender">Upload file:</label> 
+            <input type="file" id="picture" name="picture" accept="image/*" required>
+
+            <label for="">Department:</label>
+            <input type="text" id="department" name="department" required>
+
+  
+            <div class="wrap"> 
+                <button type="submit" onclick="solve()"> 
+                    <a href="thankyou.html"> Submit </a>
+                 
+                  </button> 
+            </div> 
+        </form> 
+    </div>
+    <section id="Last">
+        <footer>
+            <div class="row1">
+                <div class="col-lg-3">
+                    <ul>
+                      <p>Quick Links</p>
+                      <li><a href="index.html">Staff Login</a></li>
+                      <li><a href="faculty.html">Staff Mail</a></li>
+                      <li><a href="departments.html">Student Portal</a></li>
+                      <li><a href="registration.html">Apply</a></li>
+                      <li><a href="timetables.html">Timetables</a></li>
+                    </ul> 
+                </div>
+                <div class="col-lg-3">
+                  <ul>
+                    <p>Offices & Directorates</p>
+                    <li> Directorate of Finance</li>   
+                    <li>Directorate of Information and Communication Technology</li>
+                    <li>Directorate of Planning and Quality Assurance</li>
+                    <li>Directorate of Procurement</li>
+                    <li>Directorate of Works & Physical Development</li>    
+                    <li>Directorate of Works & Physical Development</li>
+                    <li>Institute of Research, Innovation and Development</li>
+                    <li>International Affairs & Institutional Linkages</li>
+                  </ul>
+              </div>
+              <div class="col-lg-3">
+                <ul>
+                  <p>Faculty of Applied Sciences</p>
+                  <li>Computer Science</li>   
+                  <li>Agricultural General</li>
+                  <li>Hospitality and Tourism</li>
+                  <li>Directorate of Procurement</li>
+                  <li>Pharmaceutical Sciences</li>
+  
+                  <p style="padding-top: 10px;">Faculty of Engineering</p>
+                  <li>Civil Engineering</li>
+                  <li>Mechanical Engineering</li>
+                  <li>Oil and Gas navbar-expand-lg</li>
+                </ul>
+            </div>
+                <div class="col-lg-3">
+                    <ul>
+                        <p> Contact KsTU</p>
+                        <li>Location: Kumasi - Ashanti Region, Ghana, W/A</li>
+                        <li>Postal Address: P. O. Box 854, Kumasi </li>
+                        <li>Email: info@kstu.edu.gh</li>
+                        <li>Tel: Admissions: +233(0)322 496 534, +233(0)322 496 380</li>
+                    </ul>
+                </div>
+            </div>   
+        </footer>
+    </section>
+    <hr>
+<footer class="bg-dark-1">
+    <h6 class="m-0 mt-4 text-center text-white text-capitalize">Copyright &copy; 2024 designed by Amoah Francis</h6>
+  
+</section>
+</footer>
+                 
+    <script src="main.js"></script>
+</body>
+</html>
